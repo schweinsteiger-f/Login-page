@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+header{
+    background-color: rgba(244, 244, 244, 0.69);
+    float: left;
+    padding-right: 100%;
+    box-shadow: 4px 1px 8px 1px #848484;
+    transform: translateX(-19px) translateY(-20px);
+}
+header h1{
+    color: blue;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 19px;
+}
+#lua{
+    width: 20px;
+}
+.dark-container{
+    transform: translateX(1307px) translateY(-45px);
+}
