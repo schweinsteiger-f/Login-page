@@ -4,9 +4,12 @@ body{
 header{
     background-color: rgba(244, 244, 244, 0.69);
     float: left;
-    padding-right: 100%;
+    padding-right: 80%;
     box-shadow: 4px 1px 8px 1px #848484;
     transform: translateX(-19px) translateY(-20px);
+    margin-top: 13px;
+    border-radius: 12px;
+    padding-right: 700px;
 }
 header h1{
     color: blue;
@@ -18,5 +21,16 @@ header h1{
     width: 20px;
 }
 .dark-container{
-    transform: translateX(1307px) translateY(-45px);
+    transform: translateX(1210px) translateY(-65px);
+}
+#tema:hover{
+    border: solid 2px blue;
+    font-size: 30px;
+}
+#tema{
+    font-size: 30px;
+     transform: translateY(30px) translateX(-366px);
+}
+@media (max-width:910px) {
+    
 }
