@@ -3,23 +3,51 @@ header{
     border-radius: 9px;
     padding-left: 30px;
     font-size: 19px;
+    padding-top: 20px;
+    transform: translateY(-80px);
+    color: blue;
 }
 #icone{
     height: 40px;
 }
 #icone:hover{
-    border: solid 2px blue;
+    border: solid 1px blue;
 }
 #tema{
     border: none;
     background-color: rgba(255, 255, 255, 0);
-    margin-left: 300px;
 }
 @media (max-width: 360px) {
     #tema{
-        transform: translateY(-40px);
+        transform: translateY(-20px) translateX(260px);
     }
     header{
         text-align: left;
     }
+    header h2{
+        transform: translateY(49px) translateX(-15px);
+    }
+}
+@media (max-width: 490px) {
+    header h2{
+        transform: translateY(48px) translateX(-10px);
+    }
+    #tema{
+        transform: translateX(-100px);
+    }
+}
+@media (min-width: 300px) {
+    #tema{
+        transform: translateX(300px) translateY(-px);
+    }
+}
+#user{
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+}
+.user-png-container{
+    display: flex;
+    justify-content: center;
+    background-color: ;
 }
