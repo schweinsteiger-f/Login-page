@@ -1,0 +1,25 @@
+header{
+    background-color: rgba(218, 218, 218, 0.744);
+    border-radius: 9px;
+    padding-left: 30px;
+    font-size: 19px;
+}
+#icone{
+    height: 40px;
+}
+#icone:hover{
+    border: solid 2px blue;
+}
+#tema{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 300px;
+}
+@media (max-width: 360px) {
+    #tema{
+        transform: translateY(-40px);
+    }
+    header{
+        text-align: left;
+    }
+}
