@@ -2,13 +2,13 @@ header{
     background-color: rgba(218, 218, 218, 0.744);
     border-radius: 9px;
     padding-left: 30px;
-    font-size: 19px;
+    font-size: 28px;
     padding-top: 20px;
     transform: translateY(-80px);
     color: blue;
 }
 #icone{
-    height: 40px;
+    height: 50px;
 }
 #icone:hover{
     border: solid 1px blue;
@@ -19,7 +19,7 @@ header{
 }
 @media (max-width: 360px) {
     #tema{
-        transform: translateY(-20px) translateX(260px);
+        transform: translateY(-90px) translateX(260px);
     }
     header{
         text-align: left;
@@ -30,7 +30,7 @@ header{
 }
 @media (max-width: 490px) {
     header h2{
-        transform: translateY(48px) translateX(-10px);
+        transform: translateY(20px) translateX(-10px);
     }
     #tema{
         transform: translateX(-100px);
@@ -38,7 +38,7 @@ header{
 }
 @media (min-width: 300px) {
     #tema{
-        transform: translateX(300px) translateY(-px);
+        transform: translateY(-60px) translateX(300px);
     }
 }
 #user{
@@ -49,5 +49,40 @@ header{
 .user-png-container{
     display: flex;
     justify-content: center;
-    background-color: ;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+input{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(236, 236, 236, 0.765);
+    margin-bottom: 17px;
+    font-size: 25px;
+    border-radius: 6px;
+    border: solid 1px blue;
+    color: black;
+    transform: translateX(-38px);
+}
+input:hover{
+    border: solid 1px darkblue;
+}
+form{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.text-container{
+    margin-right: 100px;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+.bg{
+    background-color: rgba(206, 206, 206, 0.544);
+    background-size: contain;
+    border-radius: 17px;
+}
+input::placeholder{
+    color: rgb(0, 17, 93);
 }
